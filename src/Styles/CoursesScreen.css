@@ -1,0 +1,12 @@
+.navbar {
+    width: 100%;
+}
+
+.major-filter-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}

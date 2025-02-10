@@ -1,0 +1,132 @@
+.credits-section {
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    font-size: 14px;
+    min-width: 1221px;
+}
+
+.anasconewLogo {
+    width: 100px;
+    /* height: px; */
+}
+
+.anascogroupLink {
+    text-decoration: none;
+    color: white;
+}
+
+.anascogroupLink:hover {
+    color: #F4C90C;
+}
+
+.credits-left {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.credits-left-text {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.credits-text-container {
+    text-align: center;
+}
+
+.credits-left-text:hover {
+    color: #F4C90C;
+}
+
+.anascoExtraLogo {
+    width: 120px;
+    height: auto;
+}
+
+@media (max-width: 1400px) {
+    .credits-section {
+        min-width: 1200px;
+    }
+}
+
+@media (max-width: 1221px) {
+    .credits-section {
+        min-width: 1000px;
+    }
+}
+@media (max-width: 1024px) {
+    .credits-section {
+        min-width: 900px;
+        align-items: center;
+        gap: 5px;
+        margin-top: 40px;
+    }
+    .credits-left {
+        margin-top: 0;
+    }
+}
+@media (max-width: 950px) {
+    .credits-section {
+        min-width: 780px;
+        flex-direction: column;
+        gap: 5px;
+        margin-top: 40px;
+    }
+    .credits-left {
+        margin-top: 40px;
+    }
+}
+@media (max-width: 780px) {
+    .credits-section {
+        min-width: 780px;
+        flex-direction: column;
+        gap: 5px;
+        margin-top: 40px;
+    }
+    .credits-left {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 540px) {
+    .credits-section {
+        min-width: 430px;
+    }
+    .credits-left {
+        flex-direction: column;
+    }
+    .dash {
+        display: none;
+    }
+    
+}
+@media (max-width: 430px) {
+    .credits-section {
+        min-width: 360px;
+    }
+    
+}
+@media (max-width: 390px) {
+    .credits-section {
+        min-width: 390px;
+    }
+}
+@media (max-width: 375px) {
+    .credits-section {
+        min-width: 340px;
+    }
+    .credits-text-container{
+        display:flex ; 
+        flex-direction: column;   
+    }
+    .span {
+        display: none;
+    }
+}

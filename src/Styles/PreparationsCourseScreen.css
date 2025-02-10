@@ -1,0 +1,144 @@
+.navbar {
+    width: 100%;
+}
+
+.preparations-main-container {
+    width: 1221px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin: auto;
+}
+
+.preparations-courses-cards {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: fit-content;
+    width: 1221px;
+    gap: 30px;
+}
+
+.new-card {
+    width: 354px;
+    height: 100%;
+    min-height: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    background-color: #F7F7F7;
+}
+
+.new-card-content {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding-bottom: 20px;
+    text-align: center;
+    gap: 10px;
+
+
+}
+
+.new-card-title {
+    font-size: 20px;
+    color: #5E0A83; 
+    word-break: break-word;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.new-card-description {
+    font-size: 15px;
+    text-align: right;
+    font-weight: 400;
+    max-width: 313px;
+    word-break: break-word;
+    align-items: stretch;
+
+    height: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+.new-card-register-button {
+    height: fit-content;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background-color: #5E0A83;
+    padding:10px 0;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    width: 150px;
+}
+
+.card-image {
+    width: 160px;
+    height: 160px;
+    margin-top: 10px;
+}
+
+.special-card-image {
+    width: 140px;
+    height: 140px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+@media (max-width: 1221px) {
+    .preparations-main-container{
+        width: 1000px;
+    }
+    .new-card-register-button {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .new-card {
+        min-height: fit-content;
+        width: 300px;
+    }
+
+}
+@media (max-width: 1000px) {
+    .preparations-courses-cards {
+        width: 700px;
+    }
+    .preparations-main-container{
+        width: 700px;
+    }
+}
+@media (max-width: 780px) {
+    .preparations-courses-cards {
+        flex-direction: column;
+        width: 700px;
+    }
+}
+
+@media (max-width: 360px) {
+    .preparations-main-container{
+        width: 360px;
+    }
+    .preparations-courses-cards {
+        width: 360px;
+        justify-content: center;
+    }
+    .new-card {
+        min-height: 400px;
+    }
+    .new-card-content {
+        min-height: 360px;
+    }
+}

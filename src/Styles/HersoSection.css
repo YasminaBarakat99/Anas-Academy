@@ -1,0 +1,86 @@
+.hero-section {
+    z-index: 1;
+    background-image: 
+    linear-gradient(to bottom, rgba(0, 0, 0, 0) 90%, rgba(255, 255, 255, 0.836)), 
+        url('../Images/Rectangle-143.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.hero-content {
+    text-align: right;
+    color: white;
+    font-weight: 600;
+    line-height: 68px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 1221px;
+    margin: auto;
+
+}
+
+.hero-title {
+    font-size: 55px;
+    margin: 0
+}
+
+.hero-subtitle{
+    font-size: 28px;
+    margin: 0;
+}
+
+@media (max-width: 1221px) {
+    .hero-content {
+        width: 1000px;
+        margin: auto;
+    }
+}
+@media (max-width: 1024px) {
+    .hero-content {
+        width: 900px;
+    }
+}
+
+@media (max-width: 950px) {
+    .hero-content {
+        margin-right: 50px;
+    }
+    .hero-title {
+        font-size: 42px;
+    }
+    .hero-subtitle {
+        font-size: 24px;
+        line-height: 30px;
+        width: 800;
+    }
+}
+@media (max-width: 430px) {
+    .hero-content {
+        width: 360px;
+        margin: auto;
+        margin-right: 10px;
+    }
+}
+@media (max-width: 360px) {
+    .hero-content {
+        margin-left: 0;
+    }
+    .hero-title {
+        font-size: 30px;
+        width: 300px;
+    }
+    .hero-subtitle {
+        font-size: 16px;
+        width: 300px;
+        line-height: 30px;
+    }
+}

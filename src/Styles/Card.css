@@ -1,0 +1,199 @@
+.card {
+    width: 354px;
+    height: 100%;
+    min-height: 450px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: #F7F7F7;
+}
+
+.card-content {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 100%;
+    padding-bottom: 20px;
+}
+
+
+.registeration-status {
+    background-color: rgb(101, 203, 101);
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+}
+
+.card-description-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: stretch;
+    width: 313px;
+    height: 100%;
+    /* flex-wrap: wrap; */
+    min-height: 180px;
+    text-align: right;
+    
+}
+
+.card-title {
+    font-size: 20px;
+    color: #394148; 
+    word-break: break-word;
+    margin: 0;
+}
+
+.card-description {
+    font-size: 15px;
+    text-align: right;
+    font-weight: 400;
+    max-width: 313px;
+    word-break: break-word;
+    height: 100%;
+    margin: 0;
+    direction: rtl;
+
+}
+
+.card-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-grow: 1;
+    min-height: 240px;
+    height: 100%;
+    width: 100%;
+}
+
+.price {
+    font-size: 21px;
+    padding: 20px;
+    color: #394148;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.details-section {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.details-item-cont {
+    font-size: 14px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.details-item-text {
+    padding-right: 5px;
+    color: #313492;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.details-item-icon{
+    margin-top: 3px;
+}
+
+.course-start-date {
+    color: #394148;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 30px;
+    text-align: center;
+    font-family: "nf-l", Sans-serif;
+
+}
+
+.card-register-button {
+    height: fit-content;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background-color: #f70387;
+    padding:14px 28px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.card-register-button:hover {
+    background-color: #df0479;
+} 
+
+.card-button-text {
+    color: #fff;
+    margin: 0;
+    font-size: 13px;
+    flex-grow: 1;
+    font-weight: bold;
+}
+
+@media (max-width: 1221px) {
+    .card {
+        width: 300px;
+    }
+    .card-description-section {
+        width: 280px;
+    }
+    .details-item-text {
+        text-align: right;
+        font-size: 13px;
+        padding-right: 2px;
+    }
+    .course-start-date {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 780px) {
+    .card {
+        min-height: 400px;
+    }
+    .card-content {
+        min-height: 360px;
+    }
+    .card-description-section {
+        min-height: 140px;
+    }
+    .card-title {
+        font-size: 18px;
+    }
+    .card-description {
+        font-size: 13px;
+    }
+    .price {
+        font-size: 19px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .details-item-text {
+        text-align: right;
+        font-size: 13px;
+        padding-right: 2px;
+    }
+    
+}

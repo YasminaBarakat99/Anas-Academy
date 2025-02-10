@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'nf-b';
+  src: url(/Fonts/nf-b.ttf);
+}
+@font-face {
+  font-family: 'nf-l';
+  src: url(/Fonts/nf-l.ttf);
+}
+@font-face {
+  font-family: 'nf-m';
+  src: url(/Fonts/nf-m.ttf);
+}
+@font-face {
+  font-family: 'nf-sb';
+  src: url(/Fonts/nf-sb.ttf);
+}
+
+
+.App {
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: 'nf-l';
+  direction: rtl;
+}
+
+
+
