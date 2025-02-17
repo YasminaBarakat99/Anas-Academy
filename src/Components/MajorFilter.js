@@ -25,7 +25,7 @@ function MajorFilter() {
         }
 
         const data = await response.json();
-        console.log('Fetched Data:', data);
+        // console.log('Fetched Data:', data);
 
         const fetchedMajors = {};
         data.data.categories.forEach((category) => {
